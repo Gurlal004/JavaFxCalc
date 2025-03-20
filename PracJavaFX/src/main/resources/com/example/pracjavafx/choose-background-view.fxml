@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="59.0" prefWidth="281.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.pracjavafx.CalcBackgroundController">
+   <children>
+      <Label fx:id="path" focusTraversable="false" layoutX="14.0" layoutY="4.0" prefHeight="26.0" prefWidth="251.0" />
+      <Button fx:id="chooseBtn" focusTraversable="false" layoutX="10.0" layoutY="32.0" mnemonicParsing="false" onAction="#chooseBtn" prefHeight="20.0" prefWidth="60.0" text="Choose" />
+      <Button fx:id="cancelBtn" focusTraversable="false" layoutX="144.0" layoutY="32.0" mnemonicParsing="false" onAction="#cancelBtn" prefHeight="20.0" prefWidth="60.0" text="Cancel" />
+      <Button fx:id="defaultBtn" focusTraversable="false" layoutX="210.0" layoutY="32.0" mnemonicParsing="false" onAction="#defaultBtn" prefHeight="20.0" prefWidth="60.0" text="Default" />
+      <Button fx:id="setBtn" focusTraversable="false" layoutX="76.0" layoutY="32.0" mnemonicParsing="false" onAction="#setBtn" prefHeight="20.0" prefWidth="60.0" text="Set" />
+   </children>
+</AnchorPane>

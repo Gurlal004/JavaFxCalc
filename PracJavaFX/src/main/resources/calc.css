@@ -1,0 +1,39 @@
+.button{
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 2em;
+    /*-fx-background-color: grey;*/
+    -fx-opacity: 0.7;
+    -fx-text-fill: black;
+    -fx-border-width: 1px;
+    -fx-border-color: black;
+}
+.button:hover{
+    -fx-background-color: lightgray;
+}
+.button:pressed{
+    -fx-background-color: darkgray;
+}
+.highlight{
+    -fx-background-color: darkgray;
+}
+#grid{
+    /*-fx-background-image: url("/background.png");*/
+    /*-fx-background-repeat: no-repeat;*/
+    /*-fx-background-position: center;*/
+    /*-fx-background-size: cover;*/
+    /*-fx-background-color: grey;*/
+    /*-fx-border-width: 1px;*/
+    /*-fx-border-color: black;*/
+}
+#display{
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 40;
+    -fx-text-fill: black;
+    -fx-border-width: 1px;
+    -fx-border-color: black;
+}
+#pane{
+    -fx-border-width: 1px;
+    -fx-border-color: black;
+}
+
